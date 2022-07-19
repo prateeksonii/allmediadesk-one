@@ -1,3 +1,5 @@
+export const hasX = (expression: string) => expression.includes("x");
+
 export const isDigit = (digit: string) => digit >= '0' && digit <= '9';
 
 export const hasPrecedence = (op1: string, op2: string) => {

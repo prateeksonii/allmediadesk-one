@@ -44,9 +44,6 @@ function App() {
       const expr = expression.replaceAll('x', "*" + x);
       data.push({ x, y: evaluate(expr) })
     }
-
-    console.log(data[0])
-
     setDataset(data)
   }
 
